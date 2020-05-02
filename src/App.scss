@@ -1,0 +1,44 @@
+//variables
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: fira-sans-compressed-2, sans-serif;
+}
+.app {
+  background: palegoldenrod;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  font-family: fira-sans-compressed-2, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+h1 {
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
