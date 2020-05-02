@@ -32,6 +32,12 @@ $col-width: calc((#{$grid-width}/ 3));
   padding: 1rem;
   min-width: $col-width;
   background-color: white;
+  &:hover {
+    -webkit-box-shadow: 5px 5px 0px 1px rgba(249, 231, 13, 1);
+    -moz-box-shadow: 5px 5px 0px 1px rgba(249, 231, 13, 1);
+    box-shadow: 5px 5px 0px 1px rgba(249, 231, 13, 1);
+    transform: translate(-2px, -2px);
+  }
 }
 
 .service_title {

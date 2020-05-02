@@ -17,22 +17,3 @@
     }
   }
 }
-.background_reveal {
-  position: absolute;
-  height: 100vh;
-  bottom: 0;
-  width: 100vw;
-  background-color: white;
-  z-index: -1;
-  animation: Reveal 3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes Reveal {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(100%);
-  }
-}

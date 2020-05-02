@@ -11,7 +11,6 @@ class About extends React.Component {
           <p>I am a visual designer and UI developer. </p>
           <ServiceGrid />
         </div>
-        <div className={styles.background_reveal}></div>
       </div>
     )
   }

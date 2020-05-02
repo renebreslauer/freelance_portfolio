@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './Services.module.scss'
 import IndividualService from './IndividualService'
 import WebDesign from '../../Assets/Icons/web_design.svg'
+import Email from '../../Assets/Icons/email.svg'
+import Develop from '../../Assets/Icons/develop.svg'
 
 class ServiceGrid extends React.Component {
   render() {
@@ -16,10 +18,12 @@ class ServiceGrid extends React.Component {
           <IndividualService
             service_title="Development"
             service_description="Lorem ipsum"
+            source={Develop}
           />
           <IndividualService
             service_title="Email Blasts"
             service_description="Lorem ipsum"
+            source={Email}
           />
         </div>
         <div className={styles.row}>
