@@ -2,13 +2,14 @@
 
 //variables
 
-$grid-width: 40vw;
+$grid-width: 50vw;
 $col-width: calc((#{$grid-width}/ 3));
 
 .service_grid {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: $grid-width;
 }
 
 .row {
@@ -30,8 +31,10 @@ $col-width: calc((#{$grid-width}/ 3));
   border: 1px solid $color-black;
   margin: 1rem;
   padding: 1rem;
+  margin-left: 0;
   min-width: $col-width;
   background-color: white;
+  flex-flow: column wrap;
   &:hover {
     -webkit-box-shadow: 5px 5px 0px 1px rgba(249, 231, 13, 1);
     -moz-box-shadow: 5px 5px 0px 1px rgba(249, 231, 13, 1);

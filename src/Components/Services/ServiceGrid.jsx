@@ -12,17 +12,17 @@ class ServiceGrid extends React.Component {
         <div className={styles.row}>
           <IndividualService
             service_title="Web Design"
-            service_description="Lorem ipsum"
+            service_description="UX/UI | Wireframes | Mock-Ups"
             source={WebDesign}
           />
           <IndividualService
             service_title="Development"
-            service_description="Lorem ipsum"
+            service_description="React | Javascript | CSS3 | SASS"
             source={Develop}
           />
           <IndividualService
             service_title="Email Blasts"
-            service_description="Lorem ipsum"
+            service_description="Engaging emails designed to increase conversion"
             source={Email}
           />
         </div>

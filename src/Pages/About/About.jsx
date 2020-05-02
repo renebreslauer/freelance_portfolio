@@ -8,7 +8,12 @@ class About extends React.Component {
       <div className={styles.about}>
         <div className={styles.about_container}>
           <AboutAnimation />
-          <p>I am a visual designer and UI developer. </p>
+          <p className={styles.about_text}>
+            I am a visual designer and UI developer. With a background in
+            customer service and business management, I understand the
+            importance of the User Experience, and it is at the heart of
+            everything I do. Great design is nothing without great results.
+          </p>
           <ServiceGrid />
         </div>
       </div>
