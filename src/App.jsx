@@ -48,6 +48,9 @@ class App extends React.Component {
               <Route path="/Contact">
                 <Contact />
               </Route>
+              <Route path="/Home">
+                <Home />
+              </Route>
               <Route exact path="/">
                 <Home />
               </Route>

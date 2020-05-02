@@ -23,19 +23,25 @@ class Nav extends React.Component {
     return (
       <div className={styles.nav}>
         <div className={styles.nav_logo_container}>
-          <NavLink to="/">
+          <NavLink to="/Home">
             <img src={Logo} className={styles.nav_logo} />
           </NavLink>
-          <Lottie options={blobOptions} height={210} width={210} />
+          <Lottie options={blobOptions} height={200} width={200} />
         </div>
 
         <div className={styles.nav_internal}>
-          <NavLink to="/Contact">Contact</NavLink>
+          <NavLink to="/Contact" activeClassName={styles.navlink_active}>
+            Contact
+          </NavLink>
 
-          <NavLink to="/Work">Work</NavLink>
+          <NavLink to="/Work" activeClassName={styles.navlink_active}>
+            Work
+          </NavLink>
 
-          <NavLink to="/About">About</NavLink>
-          <NavLink to="/" label="home">
+          <NavLink to="/About" activeClassName={styles.navlink_active}>
+            About
+          </NavLink>
+          <NavLink to="/Home" activeClassName={styles.navlink_active}>
             Home
           </NavLink>
         </div>

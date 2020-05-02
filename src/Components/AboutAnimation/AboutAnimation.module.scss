@@ -11,7 +11,7 @@
   stroke-dashoffset: 4000;
   animation-iteration-count: 1;
   animation: draw 10s linear, fillIn 5s;
-  transition: 3s ease-in-out, 8s ease-in-out;
+  transition: 3s ease-in-out, 3s;
   animation-fill-mode: forwards;
   animation-delay: 0s, 0s;
 }

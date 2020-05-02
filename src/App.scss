@@ -1,6 +1,7 @@
 //variables
-$color-primary-blue: #292fbb;
-$color-primary-pink: #e24073;
+$color-primary: #f9e70d;
+$color-white: #ffffff;
+$color-black: #000000;
 *,
 *::after,
 *::before {
@@ -13,7 +14,6 @@ body {
   font-family: fira-sans-compressed-2, sans-serif;
 }
 .app {
-  background: palegoldenrod;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -25,7 +25,7 @@ a {
   font-family: fira-sans-compressed-2, sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: black;
+  color: $color-white;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }

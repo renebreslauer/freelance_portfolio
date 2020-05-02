@@ -5,15 +5,15 @@
   text-transform: uppercase;
   font-weight: 100;
   font-size: 1rem;
-  color: $color-primary-blue;
-  border: 1px solid $color-primary-blue;
+  color: $color-black;
+  border: 1px solid $color-black;
   padding: 15px;
   &:focus {
     outline: none;
   }
   &:hover {
-    color: white;
-    background-color: $color-primary-blue;
+    color: $color-black;
+    background-color: $color-primary;
     cursor: pointer;
   }
 }
