@@ -25,7 +25,7 @@ $col-width: calc((#{$grid-width}/ 3));
 
 .individual_service {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: baseline;
   flex-direction: column;
   border: 1px solid $color-black;
@@ -35,6 +35,7 @@ $col-width: calc((#{$grid-width}/ 3));
   min-width: $col-width;
   background-color: white;
   flex-flow: column wrap;
+
   &:hover {
     -webkit-box-shadow: 5px 5px 0px 1px rgba(249, 231, 13, 1);
     -moz-box-shadow: 5px 5px 0px 1px rgba(249, 231, 13, 1);
@@ -47,4 +48,15 @@ $col-width: calc((#{$grid-width}/ 3));
   font-family: fira-sans-2, sans-serif;
   font-weight: 500;
   font-size: 1rem;
+}
+
+.service_icon_container {
+  float: inherit;
+  display: flex;
+  align-items: baseline;
+}
+.service_icon {
+  width: $col-width;
+  margin-bottom: 0;
+  align-items: baseline;
 }
