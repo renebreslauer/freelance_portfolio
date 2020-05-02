@@ -2,7 +2,6 @@ import React from 'react'
 import ServiceGrid from '../../Components/Services/ServiceGrid'
 import AboutAnimation from '../../Components/AboutAnimation/AboutAnimation'
 import styles from './About.module.scss'
-
 class About extends React.Component {
   render() {
     return (
