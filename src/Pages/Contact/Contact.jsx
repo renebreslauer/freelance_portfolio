@@ -3,11 +3,7 @@ import styles from './Contact.module.scss'
 
 class Contact extends React.Component {
   render() {
-    return (
-      <div className={styles.contact}>
-        <h1>Contact</h1>
-      </div>
-    )
+    return <div className={styles.contact}></div>
   }
 }
 

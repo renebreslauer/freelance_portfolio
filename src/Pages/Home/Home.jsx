@@ -13,6 +13,7 @@ class Home extends React.Component {
         <div className={styles.main_body}>
           <MainButton text="Let's Chat" />
         </div>
+        <div className={styles.background_reveal}></div>
       </div>
     )
   }

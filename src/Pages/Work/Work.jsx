@@ -3,11 +3,7 @@ import styles from './Work.module.scss'
 
 class Work extends React.Component {
   render() {
-    return (
-      <div className={styles.work}>
-        <h1>Work</h1>
-      </div>
-    )
+    return <div className={styles.work}></div>
   }
 }
 
