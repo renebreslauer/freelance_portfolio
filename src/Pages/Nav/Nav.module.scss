@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .nav {
   margin: 1rem;
   border: 1px solid black;
@@ -49,6 +51,9 @@
     margin-bottom: 5vh;
     a {
       padding: 1rem;
+      &:hover {
+        color: $color-primary-pink;
+      }
     }
   }
 }

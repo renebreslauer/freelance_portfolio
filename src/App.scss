@@ -1,5 +1,6 @@
 //variables
-
+$color-primary-blue: #292fbb;
+$color-primary-pink: #e24073;
 *,
 *::after,
 *::before {
@@ -22,7 +23,7 @@ body {
 
 a {
   font-family: fira-sans-compressed-2, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   color: black;
   text-transform: uppercase;

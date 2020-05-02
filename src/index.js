@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './App.scss'
+import { BrowserRouter, Route } from 'react-router-dom'
 import App from './App'
 
 ReactDOM.render(
-  <reactStrict>
-    <App />
-  </reactStrict>,
+  <BrowserRouter>
+    <Route path='/' component={App} />
+  </BrowserRouter>,
   document.getElementById('root')
 )
