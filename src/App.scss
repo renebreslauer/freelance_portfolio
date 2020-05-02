@@ -9,7 +9,10 @@ $color-black: #000000;
   padding: 0;
   box-sizing: inherit;
 }
-
+*::selection {
+  color: grey;
+  background: none;
+}
 body {
   font-family: fira-sans-compressed-2, sans-serif;
   background-image: url('./Assets/line_background.svg');
