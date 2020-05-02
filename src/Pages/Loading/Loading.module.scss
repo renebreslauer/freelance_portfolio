@@ -1,4 +1,7 @@
+@import '../../App.scss';
+
 .loading {
+  background-color: $color-white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,5 +12,6 @@
 }
 
 .bunny_container {
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
 }

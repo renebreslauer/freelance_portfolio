@@ -15,7 +15,6 @@ class Loading extends React.Component {
     }
     return (
       <div className={styles.loading}>
-        <h1>Loading</h1>
         <div className={styles.bunny_container}>
           <Lottie
             options={bunnyOptions}
@@ -23,6 +22,7 @@ class Loading extends React.Component {
             width={400}
             className={styles.bunny}
           />
+          <h1>Loading</h1>
         </div>
       </div>
     )

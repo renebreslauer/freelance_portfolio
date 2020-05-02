@@ -1,0 +1,40 @@
+@import '../../App.scss';
+
+//variables
+
+$grid-width: 40vw;
+$col-width: calc((#{$grid-width}/ 3));
+
+.service_grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  max-width: calc((#{$grid-width}-2rem));
+  margin: 0-auto;
+  min-height: $col-width;
+  [class^='col-'] {
+    float: left;
+  }
+}
+
+.individual_service {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-direction: column;
+  border: 1px solid $color-black;
+  margin: 1rem;
+  padding: 1rem;
+  min-width: $col-width;
+  background-color: white;
+}
+
+.service_title {
+  font-family: fira-sans-2, sans-serif;
+  font-weight: 500;
+}

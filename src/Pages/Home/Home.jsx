@@ -8,6 +8,7 @@ class Home extends React.Component {
       <div className={styles.main}>
         <div className={styles.main_header}>
           <h1 className={styles.main_header_title}>Rene Breslauer</h1>
+
           <h1 className={styles.main_header_subtitle}>Designer + Developer</h1>
           <img src={PaintStroke} className={styles.main_header_paintstroke} />
         </div>

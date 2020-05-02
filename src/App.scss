@@ -12,6 +12,10 @@ $color-black: #000000;
 
 body {
   font-family: fira-sans-compressed-2, sans-serif;
+  background-image: url('./Assets/line_background.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  overflow: hidden;
 }
 .app {
   height: 100vh;
