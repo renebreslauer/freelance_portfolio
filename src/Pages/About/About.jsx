@@ -8,7 +8,7 @@ class About extends React.Component {
       <div className={styles.about}>
         <div className={styles.about_container}>
           <AboutAnimation />
-          <p>I am a designer and front-end UI developer. </p>
+          <p>I am a visual designer and UI developer. </p>
         </div>
       </div>
     )
