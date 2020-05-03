@@ -3,7 +3,7 @@ import styles from './Home.module.scss'
 import MainButton from '../../Components/MainButton/MainButton'
 import NameAnimation from '../../Components/NameAnimation/NameAnimation'
 import ResponsiveBackground from '../../Components/ResponsiveBackground/ResponsiveBackground'
-
+import { NavLink } from 'react-router-dom'
 class Home extends React.Component {
   render() {
     return (
@@ -14,7 +14,9 @@ class Home extends React.Component {
           <h1 className={styles.main_header_subtitle}>Designer + Developer</h1>
         </div>
         <div className={styles.main_body}>
-          <MainButton text="Let's Chat" />
+          <NavLink to="/Contact">
+            <MainButton text="Let's Chat" />
+          </NavLink>
         </div>
         <div className={styles.background_reveal}></div>
       </div>

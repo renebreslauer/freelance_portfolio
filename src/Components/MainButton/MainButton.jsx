@@ -15,7 +15,6 @@ const MainButton = (props) => {
           </span>
         </span>
       </button>
-
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
           <filter id="goo">

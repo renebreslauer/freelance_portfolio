@@ -1,0 +1,32 @@
+@import '../../App.scss';
+
+.form_group {
+  margin-left: 10rem;
+  input {
+    border: 1px solid black;
+    width: 40rem;
+    height: 3rem;
+    padding-left: 2rem;
+    outline: none;
+    margin: 1rem;
+    font-family: fira-sans-compressed-2, sans-serif;
+    font-size: 1rem;
+  }
+  textarea {
+    border: 1px solid black;
+    width: 40rem;
+    padding-left: 2rem;
+    outline: none;
+    padding-top: 1rem;
+    margin: 1rem;
+    resize: none;
+    height: 8rem;
+    font-family: fira-sans-compressed-2, sans-serif;
+    font-size: 1rem;
+  }
+}
+
+.form_button {
+  margin-top: -6.5rem;
+  margin-left: 11rem;
+}
