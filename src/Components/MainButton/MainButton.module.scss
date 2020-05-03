@@ -4,7 +4,6 @@
   font-family: fira-sans-2, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-
   z-index: 1;
   position: relative;
   padding: 15px;
@@ -19,6 +18,7 @@
   transition: color 0.5s;
   cursor: pointer;
   animation: fadeIn 4s;
+  outline: none;
 }
 .blob_btn:before {
   content: '';
