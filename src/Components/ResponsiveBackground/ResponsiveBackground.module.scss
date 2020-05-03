@@ -9,6 +9,7 @@
 .circle {
   position: absolute;
   background-color: $color-primary;
+  animation: fadeIn 3s;
 }
 
 #one {
@@ -99,4 +100,13 @@
   border-radius: 200px;
   left: 20vw;
   top: 40vh;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

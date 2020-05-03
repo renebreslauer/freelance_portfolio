@@ -10,35 +10,31 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    &_title {
-      margin-top: 10vh;
-      margin-bottom: 10vh;
-      font-family: fira-sans-2, sans-serif;
-      font-size: 1.75rem;
-      letter-spacing: 1rem;
-      border-bottom: 1px solid $color-black;
-      padding-bottom: 0.5rem;
-      z-index: 1;
-    }
     &_subtitle {
       letter-spacing: 1rem;
       color: $color-primary;
-      margin-top: 15rem;
+      margin-top: 35vh;
       position: absolute;
       text-align: center;
       font-size: 2rem;
       z-index: 1;
       background-color: black;
       padding: 1rem;
+      animation: fadeIn 1s;
+      animation-delay: 3.2s;
+      animation-fill-mode: backwards;
     }
   }
   &_body {
     display: flex;
     justify-content: center;
-    margin-top: 40vh;
+    margin-top: 55vh;
     text-align: center;
     align-items: center;
     width: 100vw;
+    animation: fadeIn 1s;
+    animation-delay: 3.2s;
+    animation-fill-mode: backwards;
   }
 }
 
@@ -51,6 +47,7 @@
   z-index: -1;
   animation: Reveal 3s;
   animation-fill-mode: forwards;
+  animation-delay: 3.2s;
 }
 
 @keyframes Reveal {
@@ -59,5 +56,14 @@
   }
   to {
     transform: translateX(100%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

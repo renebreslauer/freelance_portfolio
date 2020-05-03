@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Home.module.scss'
 import MainButton from '../../Components/MainButton/MainButton'
+import NameAnimation from '../../Components/NameAnimation/NameAnimation'
 import ResponsiveBackground from '../../Components/ResponsiveBackground/ResponsiveBackground'
 
 class Home extends React.Component {
@@ -9,8 +10,7 @@ class Home extends React.Component {
       <div className={styles.main}>
         <ResponsiveBackground />
         <div className={styles.main_header}>
-          <h1 className={styles.main_header_title}>Rene Breslauer</h1>
-
+          <NameAnimation />
           <h1 className={styles.main_header_subtitle}>Designer + Developer</h1>
         </div>
         <div className={styles.main_body}>
