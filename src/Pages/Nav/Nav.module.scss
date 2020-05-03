@@ -56,3 +56,28 @@
 .navlink_active {
   transform: rotate(90deg);
 }
+
+.nav_circle {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: $color-primary;
+  position: absolute;
+  border-radius: 200px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.navlink_active .nav_circle {
+  visibility: visible;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -32,17 +32,21 @@ class Nav extends React.Component {
         <div className={styles.nav_internal}>
           <NavLink to="/Contact" activeClassName={styles.navlink_active}>
             Contact
+            <div className={styles.nav_circle}></div>
           </NavLink>
 
           <NavLink to="/Work" activeClassName={styles.navlink_active}>
             Work
+            <div className={styles.nav_circle}></div>
           </NavLink>
 
           <NavLink to="/About" activeClassName={styles.navlink_active}>
             About
+            <div className={styles.nav_circle}></div>
           </NavLink>
           <NavLink to="/Home" activeClassName={styles.navlink_active}>
             Home
+            <div className={styles.nav_circle}></div>
           </NavLink>
         </div>
         <div className={styles.nav_external}>
