@@ -21,7 +21,7 @@
       background-color: black;
       padding: 1rem;
       animation: fadeIn 1s;
-      animation-delay: 3.2s;
+      animation-delay: 1.5s;
       animation-fill-mode: backwards;
     }
   }
@@ -32,8 +32,9 @@
     text-align: center;
     align-items: center;
     width: 100vw;
+    margin-left: 10rem;
     animation: fadeIn 1s;
-    animation-delay: 3.2s;
+    animation-delay: 1.5s;
     animation-fill-mode: backwards;
   }
 }
@@ -47,7 +48,7 @@
   z-index: -1;
   animation: Reveal 3s;
   animation-fill-mode: forwards;
-  animation-delay: 3.2s;
+  animation-delay: 2.5s;
 }
 
 @keyframes Reveal {

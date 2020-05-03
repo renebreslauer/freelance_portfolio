@@ -10,11 +10,17 @@
   flex-direction: column;
   margin-left: 3.5rem;
   h1 {
+    font-family: fira-sans-compressed-2, sans-serif;
     text-align: center;
+    letter-spacing: 1rem;
   }
 }
 
 .bunny_container {
   border-top: 3px solid black;
   border-right: 3px solid black;
+}
+
+.dots {
+  position: absolute;
 }
