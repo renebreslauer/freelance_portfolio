@@ -1,0 +1,102 @@
+@import '../../App.scss';
+
+.spring_container {
+  top: 0;
+  height: 40vh;
+  width: 90vh;
+  margin-left: 10px;
+}
+.circle {
+  position: absolute;
+  background-color: $color-primary;
+}
+
+#one {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 200px;
+  right: 20vw;
+  top: 20vh;
+}
+#two {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 200px;
+  right: 40vw;
+  top: 10vh;
+}
+
+#three {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 200px;
+  left: 35vw;
+  top: 35vh;
+}
+
+#four {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 200px;
+  left: 50vw;
+  top: 45vh;
+}
+
+#five {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 200px;
+  left: 30vw;
+  top: 60vh;
+}
+
+#six {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 200px;
+  left: 20vw;
+  top: 50vh;
+}
+
+#seven {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 200px;
+  left: 30vw;
+  top: 25vh;
+}
+#eight {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 200px;
+  right: 10vw;
+  top: 40vh;
+}
+#nine {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 200px;
+  right: 40vw;
+  top: 60vh;
+}
+#ten {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 200px;
+  right: 20vw;
+  top: 70vh;
+}
+#eleven {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 200px;
+  left: 50vw;
+  top: 40vh;
+}
+#twelve {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 200px;
+  left: 20vw;
+  top: 40vh;
+}

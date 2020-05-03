@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from './Home.module.scss'
 import MainButton from '../../Components/MainButton/MainButton'
+import ResponsiveBackground from '../../Components/ResponsiveBackground/ResponsiveBackground'
+
 class Home extends React.Component {
   render() {
     return (
       <div className={styles.main}>
+        <ResponsiveBackground />
         <div className={styles.main_header}>
           <h1 className={styles.main_header_title}>Rene Breslauer</h1>
 

@@ -18,6 +18,7 @@ body {
   background-image: url('./Assets/line_background.svg');
   background-repeat: no-repeat;
   background-position: bottom;
+  background-attachment: fixed;
   overflow: hidden;
 }
 .app {
