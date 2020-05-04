@@ -8,9 +8,9 @@ class Map extends React.Component {
     viewport: {
       width: '30vw',
       height: '100vh',
-      latitude: 42.4,
-      longitude: -123.3,
-      zoom: 1,
+      latitude: 25.76681,
+      longitude: -80.191788,
+      zoom: 10,
     },
   }
   render() {
