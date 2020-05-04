@@ -28,7 +28,6 @@ class Map_Resize extends React.Component {
       <div className={styles.map_resize}>
         <ReactMapGL
           {...this.state.viewport}
-          onViewportChange={(viewport) => this.setState({ viewport })}
           mapStyle="mapbox://styles/renebreslauer/ck9sufnqe079j1iqleot7d9f8"
           mapboxApiAccessToken={process.env.REACT_APP_API_KEY}
         >

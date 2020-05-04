@@ -14,30 +14,34 @@ const navStyle = {
 class Map extends React.Component {
   state = {
     viewport: {
-      width: '50vw',
+      width: '100%',
       height: '100vh',
       latitude: 25.790654,
       longitude: -80.1300455,
       zoom: 11,
     },
-  }
 
+    onMapLoaded(event) {
+      event.map.resize()
+    },
+  }
   render() {
     return (
       <div className={styles.map}>
-        <ReactMapGL
-          {...this.state.viewport}
-          onViewportChange={(viewport) => this.setState({ viewport })}
-          mapStyle="mapbox://styles/renebreslauer/ck9rpca4l137y1irvek3nzcjw"
-          mapboxApiAccessToken={process.env.REACT_APP_API_KEY}
-        >
-          <div className={styles.nav} style={navStyle}>
-            <NavigationControl />
-            <Marker latitude={25.8319} longitude={-80.1300455}>
-              <img src={MapMarker} className={styles.map_marker} />
-            </Marker>
-          </div>
-        </ReactMapGL>
+        <div className={styles.container}>
+          <ReactMapGL
+            {...this.state.viewport}
+            mapStyle="mapbox://styles/renebreslauer/ck9rpca4l137y1irvek3nzcjw"
+            mapboxApiAccessToken={process.env.REACT_APP_API_KEY}
+          >
+            <div className={styles.nav} style={navStyle}>
+              <NavigationControl />
+              <Marker latitude={25.8319} longitude={-80.1300455}>
+                <img src={MapMarker} className={styles.map_marker} />
+              </Marker>
+            </div>
+          </ReactMapGL>
+        </div>
       </div>
     )
   }
