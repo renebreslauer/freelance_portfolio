@@ -3,7 +3,8 @@
 .form_group {
   margin-left: 10rem;
   input {
-    border: 1px solid black;
+    border: none;
+    background-color: lightgrey;
     width: 40rem;
     height: 3rem;
     padding-left: 2rem;
@@ -11,9 +12,16 @@
     margin: 1rem;
     font-family: fira-sans-compressed-2, sans-serif;
     font-size: 1rem;
+    &:valid {
+      border-bottom: 3px solid $color-primary;
+    }
+    &:focus {
+      border-bottom: 3px solid $color-primary;
+    }
   }
   textarea {
-    border: 1px solid black;
+    border: none;
+    background-color: lightgrey;
     width: 40rem;
     padding-left: 2rem;
     outline: none;
@@ -23,6 +31,12 @@
     height: 8rem;
     font-family: fira-sans-compressed-2, sans-serif;
     font-size: 1rem;
+    &:valid {
+      border-bottom: 3px solid $color-primary;
+    }
+    &:focus {
+      border-bottom: 3px solid $color-primary;
+    }
   }
 }
 

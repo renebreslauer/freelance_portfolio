@@ -18,11 +18,12 @@ class ContactForm extends React.Component {
             <div className={styles.form_group}>
               <input
                 id="name"
-                type="text"
                 placeholder="Name"
+                type="text"
                 className={styles.name_control}
                 autoComplete="off"
                 name="name"
+                required
               />
             </div>
             <div className={styles.form_group}>
