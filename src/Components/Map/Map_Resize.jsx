@@ -3,13 +3,13 @@ import styles from './Map.module.scss'
 import MapGL, { Marker } from 'react-map-gl'
 import MapMarker from '../../Assets/map_marker.svg'
 import 'mapbox-gl/dist/mapbox-gl.css'
-
 require('dotenv').config()
-class Map extends React.Component {
+
+class Map_Resize extends React.Component {
   state = {
     viewport: {
-      width: '50vw',
-      height: '100vh',
+      width: '100vw',
+      height: '40vh',
       latitude: 25.790654,
       longitude: -80.1300455,
       zoom: 10,
@@ -17,7 +17,7 @@ class Map extends React.Component {
   }
   render() {
     return (
-      <div className={styles.map}>
+      <div className={styles.map_resize}>
         <MapGL
           {...this.state.viewport}
           mapboxApiAccessToken={process.env.REACT_APP_API_KEY}
@@ -31,4 +31,4 @@ class Map extends React.Component {
     )
   }
 }
-export default Map
+export default Map_Resize

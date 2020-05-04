@@ -3,6 +3,7 @@ import styles from './Contact.module.scss'
 import ContactForm from '../../Components/ContactForm/ContactForm'
 import ContactAnimation from '../../Components/ContactAnimation/ContactAnimation'
 import Map from '../../Components/Map/Map'
+import Map_Resize from '../../Components/Map/Map_Resize'
 
 class Contact extends React.Component {
   render() {
@@ -19,7 +20,10 @@ class Contact extends React.Component {
             </a>
           </p>
         </div>
-        <Map />
+        <div className={styles.map_container}>
+          <Map />
+          <Map_Resize />
+        </div>
       </div>
     )
   }
