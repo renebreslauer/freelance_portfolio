@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './Map.module.scss'
-import MapGL, { Marker, NavigationControl } from 'react-map-gl'
+import ReactMapGL, { Marker, NavigationControl } from 'react-map-gl'
 import MapMarker from '../../Assets/map_marker.svg'
 import 'mapbox-gl/dist/mapbox-gl.css'
 require('dotenv').config()
@@ -12,39 +12,35 @@ const navStyle = {
   padding: '10px',
 }
 class Map extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      viewport: {
-        width: '50vw',
-        height: '100vh',
-        latitude: 25.790654,
-        longitude: -80.1300455,
-        bearing: 0,
-        pitch: 0,
-        zoom: 11,
-      },
-    }
+  state = {
+    viewport: {
+      width: '50vw',
+      height: '100vh',
+      latitude: 25.790654,
+      longitude: -80.1300455,
+      zoom: 11,
+    },
   }
 
   render() {
-    const { viewport } = this.state
     return (
       <div className={styles.map}>
-        <MapGL
-          {...viewport}
+        <ReactMapGL
+          {...this.state.viewport}
+          onViewportChange={(viewport) => this.setState({ viewport })}
           mapStyle="mapbox://styles/renebreslauer/ck9rpca4l137y1irvek3nzcjw"
           mapboxApiAccessToken={process.env.REACT_APP_API_KEY}
         >
           <div className={styles.nav} style={navStyle}>
             <NavigationControl />
-            <Marker latitude={25.8319} longitude={-80.1238}>
+            <Marker latitude={25.8319} longitude={-80.1300455}>
               <img src={MapMarker} className={styles.map_marker} />
             </Marker>
           </div>
-        </MapGL>
+        </ReactMapGL>
       </div>
     )
   }
 }
+
 export default Map
