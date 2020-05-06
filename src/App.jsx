@@ -16,10 +16,10 @@ class App extends React.Component {
   }
   componentDidMount() {
     setTimeout(
-      function () {
+      function() {
         this.setState({ isLoading: false })
       }.bind(this),
-      3000,
+      3000
     )
   }
 

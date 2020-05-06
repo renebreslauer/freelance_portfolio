@@ -4,6 +4,7 @@ import MainButton from '../../Components/MainButton/MainButton'
 import NameAnimation from '../../Components/NameAnimation/NameAnimation'
 import ResponsiveBackground from '../../Components/ResponsiveBackground/ResponsiveBackground'
 import { NavLink } from 'react-router-dom'
+
 class Home extends React.Component {
   render() {
     return (
