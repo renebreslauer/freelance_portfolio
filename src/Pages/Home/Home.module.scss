@@ -94,6 +94,9 @@
     &_body {
       display: flex;
       justify-content: center;
+      &_button {
+        margin-top: -25%;
+      }
     }
   }
 }

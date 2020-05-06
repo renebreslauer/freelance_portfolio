@@ -15,9 +15,11 @@ class Home extends React.Component {
           <h1 className={styles.main_header_subtitle}>Designer + Developer</h1>
         </div>
         <div className={styles.main_body}>
-          <NavLink to="/Contact">
-            <MainButton text="Let's Chat" />
-          </NavLink>
+          <div className={styles.main_body_button}>
+            <NavLink to="/Contact">
+              <MainButton text="Let's Chat" />
+            </NavLink>
+          </div>
         </div>
         <div className={styles.background_reveal}></div>
       </div>
