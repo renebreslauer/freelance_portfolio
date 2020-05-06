@@ -91,6 +91,10 @@
         animation-fill-mode: backwards;
       }
     }
+    &_body {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
 
