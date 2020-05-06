@@ -72,7 +72,25 @@
 
 @media only screen and (max-width: 1000px) {
   .main {
+    width: 100vw;
     margin-top: 10rem;
+    margin-left: 0;
+    &_header {
+      &_subtitle {
+        letter-spacing: 1rem;
+        color: $color-primary;
+        margin-top: 35vh;
+        position: absolute;
+        text-align: center;
+        font-size: 1.5rem;
+        z-index: 1;
+        background-color: black;
+        padding: 1rem;
+        animation: fadeIn 1s;
+        animation-delay: 1.5s;
+        animation-fill-mode: backwards;
+      }
+    }
   }
 }
 

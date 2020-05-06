@@ -19,7 +19,6 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
   background-attachment: fixed;
-  overflow: hidden;
 }
 .app {
   height: 100vh;
@@ -50,4 +49,9 @@ h2 {
   font-family: montserrat, sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+  }
 }

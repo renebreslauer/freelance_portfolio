@@ -24,3 +24,9 @@
 .dots {
   position: absolute;
 }
+
+@media only screen and (max-width: 400px) {
+  .bunny_container {
+    display: none;
+  }
+}
