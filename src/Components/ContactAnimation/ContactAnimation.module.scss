@@ -4,6 +4,7 @@
   width: 22rem;
   margin-bottom: 2rem;
   margin-left: 5.5rem;
+  margin-top: 10rem;
 }
 
 .design {
@@ -34,5 +35,12 @@
   100% {
     fill: black;
     fill-opacity: 100;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact_animation {
+    margin-top: 20rem;
+    margin-left: 0;
   }
 }

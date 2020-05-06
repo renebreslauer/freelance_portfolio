@@ -49,6 +49,7 @@
   z-index: -1;
   animation: Reveal 3s;
   animation-fill-mode: forwards;
+  overflow-x: hidden;
 }
 
 @keyframes Reveal {
