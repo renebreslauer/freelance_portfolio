@@ -19,7 +19,7 @@ $viewport-width: calc((100vw - 10rem));
     &_subtitle {
       letter-spacing: 1rem;
       color: $color-primary;
-      margin-top: 35vh;
+      margin-top: 45vh;
       position: absolute;
       text-align: center;
       font-size: 2rem;
@@ -32,7 +32,7 @@ $viewport-width: calc((100vw - 10rem));
     }
   }
   &_button {
-    margin-top: 55vh;
+    margin-top: 65vh;
     text-align: center;
     animation: fadeIn 1s;
     animation-delay: 1.5s;
@@ -80,7 +80,7 @@ $viewport-width: calc((100vw - 10rem));
       &_subtitle {
         letter-spacing: 1rem;
         color: $color-primary;
-        margin-top: 35vh;
+        margin-top: 30vh;
         position: absolute;
         text-align: center;
         font-size: 1.5rem;
@@ -92,12 +92,8 @@ $viewport-width: calc((100vw - 10rem));
         animation-fill-mode: backwards;
       }
     }
-    &_body {
-      display: flex;
-      justify-content: center;
-      &_button {
-        margin-top: -25%;
-      }
+
+    &_button {
     }
   }
 }
