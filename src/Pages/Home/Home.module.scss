@@ -6,10 +6,10 @@ $viewport-width: calc((100vw - 10rem));
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 3.5rem;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  margin-left: 3.5rem;
   &_header {
     display: flex;
     justify-content: center;
@@ -31,13 +31,9 @@ $viewport-width: calc((100vw - 10rem));
       animation-fill-mode: backwards;
     }
   }
-  &_body {
-    display: flex;
-    justify-content: center;
+  &_button {
     margin-top: 55vh;
     text-align: center;
-    align-items: center;
-    width: 100vw;
     animation: fadeIn 1s;
     animation-delay: 1.5s;
     animation-fill-mode: backwards;

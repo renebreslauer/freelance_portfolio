@@ -14,12 +14,10 @@ class Home extends React.Component {
           <NameAnimation />
           <h1 className={styles.main_header_subtitle}>Designer + Developer</h1>
         </div>
-        <div className={styles.main_body}>
-          <div className={styles.main_body_button}>
-            <NavLink to="/Contact">
-              <MainButton text="Let's Chat" />
-            </NavLink>
-          </div>
+        <div className={styles.main_button}>
+          <NavLink to="/Contact">
+            <MainButton text="Let's Chat" />
+          </NavLink>
         </div>
         <div className={styles.background_reveal}></div>
       </div>
