@@ -70,5 +70,14 @@ $col-width: calc((#{$grid-width}/ 3));
   }
   .individual_service {
     flex-flow: column wrap;
+    width: 70vw;
+    display: flex;
+    align-content: center;
+  }
+  .service_icon_container {
+    text-align: center;
+  }
+  .service_icon {
+    width: 40vw;
   }
 }
