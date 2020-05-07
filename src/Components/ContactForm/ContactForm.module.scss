@@ -59,3 +59,9 @@
     margin-left: 8rem;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .contact_form_container {
+    margin-bottom: 15rem;
+  }
+}

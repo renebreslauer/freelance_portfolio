@@ -1,6 +1,11 @@
 @import '../../App.scss';
 
+$viewport-width: calc((100vw - 10rem));
+
 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-left: 3.5rem;
   height: 100vh;
   width: 100vw;
@@ -33,7 +38,6 @@
     text-align: center;
     align-items: center;
     width: 100vw;
-    margin-left: 10rem;
     animation: fadeIn 1s;
     animation-delay: 1.5s;
     animation-fill-mode: backwards;
