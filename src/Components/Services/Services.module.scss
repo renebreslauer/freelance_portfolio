@@ -66,7 +66,6 @@ $col-width: calc((#{$grid-width}/ 3));
   .row {
     width: 100vw;
     flex-direction: column;
-    align-items: center;
   }
   .individual_service {
     flex-flow: column wrap;

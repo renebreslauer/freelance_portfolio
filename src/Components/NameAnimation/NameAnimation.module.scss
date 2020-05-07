@@ -98,12 +98,6 @@
 
 @media only screen and (max-width: 1000px) {
   .name_animation {
-    margin-top: 10rem;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40rem;
-    margin-left: 5.5rem;
+    display: none;
   }
 }
